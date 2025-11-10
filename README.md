@@ -13,23 +13,23 @@ UNREAL VERSION 5.6
 ## Opening the Project ##
 After Cloning Repo do the following:
 - Launch the RobotAbuse.uproject
-- - If this fails Right-Click the RobotAbuse.uproject
+- - If this fails, Right-Click the RobotAbuse.uproject
 - - Select Generate Visual Studio Project Files
 - - Upon Generation, you should be able to Launch RobotAbuse.uproject
-- - - Alternatively you can launch it in the SLN
-- - - Make sure Developer Game Editor Modual is selected with Win64
+- - - Alternatively, you can launch it in the SLN
+- - - Make sure Developer Game Editor Module is selected with Win64
 - - - Run Local Windows Debugger
 - - - If Error message shows, select run anyways
 
 ## In Editor ##
 - Project should open at RobotAssembly Level
-- - If not, You can find it in the Levels folder (do not open the AUTOTEST version)
+- - If not, you can find it in the Levels folder (do not open the AUTOTEST version)
 - Press play
 
 ## Automated Functional Unit Testing ##
-- In Editor top toolbar go to Tools
+- In the Editor top toolbar, go to Tools
 - Open Session Frontend
-- In the new window, Find the 'Automation' Tab
-- Type 'AUTOTEST' into search bar
-- Checkbox both AutoTest_AttachLeftArm and AutoTest_AttachRightArm
+- In the new window, find the **Automation** Tab
+- Type **AUTOTEST** into the search bar
+- Checkbox both **AutoTest_AttachLeftArm** and **AutoTest_AttachRightArm**
 - Press the play button in that new window (above Standard Tests)
